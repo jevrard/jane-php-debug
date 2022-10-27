@@ -9,7 +9,7 @@ install:
 		jane-php/json-schema-runtime:$(JANE_VERSION)
 
 open-api:
-	vendor/bin/jane-openapi generate -c config/open-api/config.php
+	$(foreach JANE_CONFIG, $(shell ls config/open-api/config*.php), vendor/bin/jane-openapi generate -c $(JANE_CONFIG);)
 	composer dump-autoload
 
 json-schema:
