@@ -3,21 +3,53 @@ info:
   version: 1.0.0
   title: Jane test client
 paths:
-  /endpoint:
+  /endpoint/1:
     get:
-      summary: Simple endpoint
-      operationId: getEndpoint
+      summary: Simple endpoint 1
+      operationId: getEndpoint1
       responses:
         '200':
-          description: Simple endpoint response
+          description: Simple endpoint response 1
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/RootLevel'
+                $ref: '#/components/schemas/Endpoint-1-GetResponse'
+  /endpoint/2:
+    get:
+      summary: Simple endpoint 2
+      operationId: getEndpoint2
+      responses:
+        '200':
+          description: Simple endpoint response 2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Endpoint-2-GetResponse'
+
 components:
   schemas:
-    RootLevel:
+    Endpoint-1-GetResponse:
       type: object
       properties:
-        subLevel-1:
+        field-1:
+          $ref: '#/components/schemas/UnwantedField1'
+    Endpoint-2-GetResponse:
+      type: object
+      properties:
+        field-2:
+          type: string
+    UnusedModel:
+      type: object
+      properties:
+        subModel:
+          $ref: '#/components/schemas/UnwantedSubModel'
+    UnwantedSubModel:
+      type: object
+      properties:
+        foo:
+          type: string
+    UnwantedField1:
+      type: object
+      properties:
+        foo1:
           type: string
