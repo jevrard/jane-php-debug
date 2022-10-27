@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cca270415ccf271f9bd012023e5668fe",
+    "content-hash": "81b4a649732f4a2845d5baeb08dfeb70",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -165,16 +165,16 @@
         },
         {
             "name": "jane-php/json-schema",
-            "version": "v7.3.2",
+            "version": "dev-next",
             "source": {
                 "type": "git",
                 "url": "https://github.com/janephp/json-schema.git",
-                "reference": "729296d7bc411f6bab6ec2c811b4bdcf5d7d52c1"
+                "reference": "a648a17c674f5314f5224e5084bbebc1bb5d1130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/janephp/json-schema/zipball/729296d7bc411f6bab6ec2c811b4bdcf5d7d52c1",
-                "reference": "729296d7bc411f6bab6ec2c811b4bdcf5d7d52c1",
+                "url": "https://api.github.com/repos/janephp/json-schema/zipball/a648a17c674f5314f5224e5084bbebc1bb5d1130",
+                "reference": "a648a17c674f5314f5224e5084bbebc1bb5d1130",
                 "shasum": ""
             },
             "require": {
@@ -202,6 +202,7 @@
             "suggest": {
                 "friendsofphp/php-cs-fixer": "Allow to automatically fix cs on generated code for better visualisation"
             },
+            "default-branch": true,
             "bin": [
                 "bin/jane"
             ],
@@ -235,13 +236,13 @@
             ],
             "description": "Generate a serializable / deserializable object model given a json schema",
             "support": {
-                "source": "https://github.com/janephp/json-schema/tree/v7.3.2"
+                "source": "https://github.com/janephp/json-schema/tree/next"
             },
-            "time": "2022-09-16T09:03:00+00:00"
+            "time": "2022-10-09T11:50:47+00:00"
         },
         {
             "name": "jane-php/json-schema-runtime",
-            "version": "v7.3.1",
+            "version": "dev-next",
             "source": {
                 "type": "git",
                 "url": "https://github.com/janephp/json-schema-runtime.git",
@@ -267,6 +268,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^8.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -297,22 +299,22 @@
             ],
             "description": "Jane runtime Library",
             "support": {
-                "source": "https://github.com/janephp/json-schema-runtime/tree/v7.3.1"
+                "source": "https://github.com/janephp/json-schema-runtime/tree/v7.3.2"
             },
             "time": "2021-12-16T13:26:58+00:00"
         },
         {
             "name": "jane-php/open-api-3",
-            "version": "v7.3.2",
+            "version": "dev-next",
             "source": {
                 "type": "git",
                 "url": "https://github.com/janephp/open-api-3.git",
-                "reference": "3c583bd3aa348f3122787c6898fbb7d67d303d86"
+                "reference": "f4c3621cfb196fb51c3d9d56a26da2bc6c1ec9e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/janephp/open-api-3/zipball/3c583bd3aa348f3122787c6898fbb7d67d303d86",
-                "reference": "3c583bd3aa348f3122787c6898fbb7d67d303d86",
+                "url": "https://api.github.com/repos/janephp/open-api-3/zipball/f4c3621cfb196fb51c3d9d56a26da2bc6c1ec9e6",
+                "reference": "f4c3621cfb196fb51c3d9d56a26da2bc6c1ec9e6",
                 "shasum": ""
             },
             "require": {
@@ -337,6 +339,7 @@
             "suggest": {
                 "friendsofphp/php-cs-fixer": "To have a nice formatting of the generated files"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -372,22 +375,22 @@
                 "swagger"
             ],
             "support": {
-                "source": "https://github.com/janephp/open-api-3/tree/v7.3.2"
+                "source": "https://github.com/janephp/open-api-3/tree/next"
             },
-            "time": "2022-09-21T15:18:51+00:00"
+            "time": "2022-10-09T11:50:47+00:00"
         },
         {
             "name": "jane-php/open-api-common",
-            "version": "v7.3.2",
+            "version": "dev-next",
             "source": {
                 "type": "git",
                 "url": "https://github.com/janephp/open-api-common.git",
-                "reference": "f9d1aad01172d1c4ac433c65db6f87431d921bfe"
+                "reference": "16f9d4c4b60610b8922c16cf7eed623aa1ddd4e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/janephp/open-api-common/zipball/f9d1aad01172d1c4ac433c65db6f87431d921bfe",
-                "reference": "f9d1aad01172d1c4ac433c65db6f87431d921bfe",
+                "url": "https://api.github.com/repos/janephp/open-api-common/zipball/16f9d4c4b60610b8922c16cf7eed623aa1ddd4e8",
+                "reference": "16f9d4c4b60610b8922c16cf7eed623aa1ddd4e8",
                 "shasum": ""
             },
             "require": {
@@ -404,6 +407,7 @@
                 "jane-php/open-api-2": "Allow to generate OpenApi v2 clients",
                 "jane-php/open-api-3": "Allow to generate OpenApi v3 clients"
             },
+            "default-branch": true,
             "bin": [
                 "bin/jane-openapi"
             ],
@@ -440,13 +444,13 @@
                 "utility"
             ],
             "support": {
-                "source": "https://github.com/janephp/open-api-common/tree/v7.3.2"
+                "source": "https://github.com/janephp/open-api-common/tree/next"
             },
-            "time": "2022-09-21T08:48:40+00:00"
+            "time": "2022-10-09T11:50:47+00:00"
         },
         {
             "name": "jane-php/open-api-runtime",
-            "version": "v7.3.1",
+            "version": "dev-next",
             "source": {
                 "type": "git",
                 "url": "https://github.com/janephp/open-api-runtime.git",
@@ -473,6 +477,7 @@
                 "phpunit/phpunit": "^8.0",
                 "symfony/serializer": "^4.4 || ^5.0 || ^6.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -503,7 +508,7 @@
             ],
             "description": "Jane OpenAPI Runtime Library, dependencies and utility class for a library generated by jane/openapi",
             "support": {
-                "source": "https://github.com/janephp/open-api-runtime/tree/v7.3.1"
+                "source": "https://github.com/janephp/open-api-runtime/tree/v7.3.2"
             },
             "time": "2021-12-16T13:26:58+00:00"
         },
@@ -733,6 +738,83 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.1"
             },
             "time": "2022-09-04T07:30:47+00:00"
+        },
+        {
+            "name": "nyholm/psr7",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nyholm/psr7.git",
+                "reference": "f734364e38a876a23be4d906a2a089e1315be18a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nyholm/psr7/zipball/f734364e38a876a23be4d906a2a089e1315be18a",
+                "reference": "f734364e38a876a23be4d906a2a089e1315be18a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "php-http/message-factory": "^1.0",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-factory-implementation": "1.0",
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "http-interop/http-factory-tests": "^0.9",
+                "php-http/psr7-integration-tests": "^1.0",
+                "phpunit/phpunit": "^7.5 || 8.5 || 9.4",
+                "symfony/error-handler": "^4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nyholm\\Psr7\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com"
+                },
+                {
+                    "name": "Martijn van der Ven",
+                    "email": "martijn@vanderven.se"
+                }
+            ],
+            "description": "A fast PHP7 implementation of PSR-7",
+            "homepage": "https://tnyholm.se",
+            "keywords": [
+                "psr-17",
+                "psr-7"
+            ],
+            "support": {
+                "issues": "https://github.com/Nyholm/psr7/issues",
+                "source": "https://github.com/Nyholm/psr7/tree/1.5.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Zegnat",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/nyholm",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-06-22T07:13:36+00:00"
         },
         {
             "name": "php-http/client-common",
@@ -1455,6 +1537,56 @@
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
+            "name": "psr/log",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.0"
+            },
+            "time": "2021-07-14T16:46:02+00:00"
+        },
+        {
             "name": "symfony/console",
             "version": "v6.1.6",
             "source": {
@@ -1679,6 +1811,171 @@
                 }
             ],
             "time": "2022-09-21T20:29:40+00:00"
+        },
+        {
+            "name": "symfony/http-client",
+            "version": "v6.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client.git",
+                "reference": "c8c887f4813370550147afd27d9eb8a8523e53b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/c8c887f4813370550147afd27d9eb8a8523e53b2",
+                "reference": "c8c887f4813370550147afd27d9eb8a8523e53b2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "psr/log": "^1|^2|^3",
+                "symfony/http-client-contracts": "^3",
+                "symfony/service-contracts": "^1.0|^2|^3"
+            },
+            "provide": {
+                "php-http/async-client-implementation": "*",
+                "php-http/client-implementation": "*",
+                "psr/http-client-implementation": "1.0",
+                "symfony/http-client-implementation": "3.0"
+            },
+            "require-dev": {
+                "amphp/amp": "^2.5",
+                "amphp/http-client": "^4.2.1",
+                "amphp/http-tunnel": "^1.0",
+                "amphp/socket": "^1.1",
+                "guzzlehttp/promises": "^1.4",
+                "nyholm/psr7": "^1.0",
+                "php-http/httplug": "^1.0|^2.0",
+                "psr/http-client": "^1.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0",
+                "symfony/stopwatch": "^5.4|^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpClient\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/http-client/tree/v6.1.6"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-12T05:10:31+00:00"
+        },
+        {
+            "name": "symfony/http-client-contracts",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client-contracts.git",
+                "reference": "fd038f08c623ab5d22b26e9ba35afe8c79071800"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/fd038f08c623ab5d22b26e9ba35afe8c79071800",
+                "reference": "fd038f08c623ab5d22b26e9ba35afe8c79071800",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "suggest": {
+                "symfony/http-client-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\HttpClient\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Test/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to HTTP clients",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/http-client-contracts/tree/v3.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-04-22T07:30:54+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -2786,7 +3083,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "jane-php/open-api-3": 20,
+        "jane-php/open-api-common": 20,
+        "jane-php/open-api-runtime": 20,
+        "jane-php/json-schema": 20,
+        "jane-php/json-schema-runtime": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

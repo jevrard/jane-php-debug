@@ -1,10 +1,15 @@
 {
     "require": {
-        "jane-php/open-api-3": "^7.3",
-        "jane-php/open-api-common": "^7.3",
-        "jane-php/open-api-runtime": "^7.3",
-        "jane-php/json-schema": "^7.3",
-        "jane-php/json-schema-runtime": "^7.3"
+        "jane-php/open-api-3": "dev-next",
+        "jane-php/open-api-common": "dev-next",
+        "jane-php/open-api-runtime": "dev-next",
+        "jane-php/json-schema": "dev-next",
+        "jane-php/json-schema-runtime": "dev-next",
+        "symfony/serializer": "^6.1",
+        "symfony/validator": "^6.1",
+        "symfony/http-client": "^6.1",
+        "nyholm/psr7": "^1.5",
+        "symfony/var-dumper": "^6.1"
 
     }
 }
