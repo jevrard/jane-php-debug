@@ -11,5 +11,10 @@
         "nyholm/psr7": "^1.5",
         "symfony/var-dumper": "^6.1"
 
+    },
+    "autoload": {
+        "psr-4": {
+            "Generated\\": "src-generated/"
+        }
     }
 }

@@ -1,0 +1,12 @@
+{
+  "definitions": {
+    "RootLevel": {
+      "type": "object",
+      "properties": {
+        "subLevel-1": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
