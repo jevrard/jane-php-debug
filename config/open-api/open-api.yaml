@@ -1,0 +1,39 @@
+openapi: '3.0.3'
+info:
+  version: 1.0.0
+  title: Jane test client
+paths:
+  /endpoint:
+    get:
+      summary: Simple endpoint
+      operationId: getEndpoint
+      responses:
+        '200':
+          description: Simple endpoint response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RootLevel'
+components:
+  schemas:
+    RootLevel:
+      type: object
+      properties:
+        subLevel-1:
+          $ref: '#/components/schemas/SubLevel-1'
+    SubLevel-1:
+      type: object
+      properties:
+        subLevel-2:
+          $ref: '#/components/schemas/SubLevel-2'
+    SubLevel-2:
+      type: object
+      properties:
+        subLevel-3:
+          $ref: '#/components/schemas/SubLevel-3'
+    SubLevel-3:
+      type: object
+      properties:
+        end:
+          type: string
+          pattern: '[a-z]+'

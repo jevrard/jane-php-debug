@@ -1,0 +1,37 @@
+{
+  "definitions": {
+    "RootLevel": {
+      "type": "object",
+      "properties": {
+        "subLevel-1": {
+          "$ref": "#/definitions/SubLevel-1"
+        }
+      }
+    },
+    "SubLevel-1": {
+      "type": "object",
+      "properties": {
+        "subLevel-2": {
+          "$ref": "#/definitions/SubLevel-2"
+        }
+      }
+    },
+    "SubLevel-2": {
+      "type": "object",
+      "properties": {
+        "subLevel-3": {
+          "$ref": "#/definitions/SubLevel-3"
+        }
+      }
+    },
+    "SubLevel-3": {
+      "type": "object",
+      "properties": {
+        "end": {
+          "type": "string",
+          "pattern": "[a-z]+"
+        }
+      }
+    }
+  }
+}
