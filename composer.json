@@ -1,0 +1,10 @@
+{
+    "require": {
+        "jane-php/open-api-3": "^7.3",
+        "jane-php/open-api-common": "^7.3",
+        "jane-php/open-api-runtime": "^7.3",
+        "jane-php/json-schema": "^7.3",
+        "jane-php/json-schema-runtime": "^7.3"
+
+    }
+}
